@@ -62,7 +62,7 @@ public class Administrator {
                 }
             }
         } catch (InterruptedException e) {
-            logger.error("Interruption occurred", e);
+            logger.error("Thread execution error", e);
             throw new ThreadException("Thread execution error", e);
         } finally {
             lock.unlock();
