@@ -1,4 +1,4 @@
-person Sasha 77
-person Ales 12
-person Gleb 22
-person Arianna 33
+person Sasha 10
+person Ales 7
+person Gleb 2
+person Arianna 3
