@@ -1,5 +1,8 @@
 package edu.epam.lasttask.state;
 
-public interface HookahState {
+import edu.epam.lasttask.entity.Hookah;
 
+public interface HookahState {
+    void order(Hookah hookah);
+    void stopSmoking(Hookah hookah);
 }
